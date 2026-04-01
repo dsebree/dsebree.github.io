@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export', // Required for GitHub Pages
+    basePath: '/daniel-sebree-portfolio',
     images: {
       unoptimized: true, // GitHub Pages doesn't support the Next.js Image Optimization API
     },

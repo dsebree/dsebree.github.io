@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 /* Optional: Set the base dark theme background */
-body {
-  @apply bg-slate-950 text-slate-50;
+@layer base {
+    body {
+        @apply bg-slate-950 text-slate-50 antialiased;
+    }
 }
