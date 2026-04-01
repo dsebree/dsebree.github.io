@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
-/* This is where we define your Glassmorphism 'vibe' */
-@theme {
-  --color-brand-blue: #3b82f6;
-  --color-glass-bg: rgba(255, 255, 255, 0.1);
-  --color-glass-border: rgba(255, 255, 255, 0.2);
+/* Optional: Set the base dark theme background */
+body {
+  @apply bg-slate-950 text-slate-50;
 }
