@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export', // Required for GitHub Pages
+    trailingSlash: true,
     basePath: '/dsebree.github.io',
     assetPrefix: '/dsebree.github.io',
     images: {
